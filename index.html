@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip path Mousemove</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<section class="banner">
+    <div class="content">
+<h1>  CSS  Clip-path Mousemove Effect</h1>
+<p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores id ex nobis voluptatem repellat porro temporibus, sunt, quis eaque, rem deleniti. Qui inventore quibusdam sed repellat quidem ipsam exercitationem quasi ullam officia ab necessitatibus, voluptate illo nemo laudantium. Provident nobis numquam at nihil adipisci praesentium inventore dicta neque animi ad velit minima eveniet dolores obcaecati asperiores cumque dolore sapiente, illo iusto, mollitia qui debitis. Fugiat perspiciatis vero ab est libero ex fugit soluta suscipit neque quod aperiam ipsum ea, odio, repudiandae iure cum deserunt tempore aliquam officia maiores voluptate quasi velit. Animi, molestiae dolorem magni blanditiis incidunt mollitia, quo, cupiditate veritatis et doloremque vel obcaecati sunt. Odio non qui repudiandae dolor nemo? </p>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</section>
+
+
+<script>
+var pos = document.documentElement;
+pos.addEventListener("mousemove" , e => {
+pos.style.setProperty('--x', e.clientX + "Px");
+pos.style.setProperty('--y', e.clientY + "Px");
+
+
+})
+
+
+</Script>
+</body>
+</html>
